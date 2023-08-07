@@ -39,7 +39,7 @@ const Navbar = () => {
       <div
         className={`absolute transition-all ${
           menuClicked ? "left-0" : "left-[-100%]"
-        }  top-[90px] w-full h-full flex flex-col justify-center items-center  bg-white`}
+        }  top-[90px] w-full h-full flex flex-col justify-center items-center z-10 bg-white`}
       >
         <ul className="w-full gap-[20px] flex flex-col mb-[30%] justify-center items-center  ">
           <NavLink to="/">
