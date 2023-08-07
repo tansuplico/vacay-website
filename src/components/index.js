@@ -1,0 +1,9 @@
+export { default as Banner } from "./Banner";
+export { default as Client } from "./Client";
+export { default as Discount } from "./Discount";
+export { default as Footer } from "./Footer";
+export { default as Navbar } from "./Navbar";
+export { default as Popular } from "./Popular";
+export { default as Slider } from "./Slider";
+export { default as Lists } from "./Lists";
+export { default as SelectedHotel } from "./SelectedHotel";

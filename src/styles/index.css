@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .hide-scrollbar::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: transparent;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  li {
+    @apply cursor-pointer max-w-max;
+  }
+
+  .input-banner {
+    @apply w-full mb-[8px] outline-none border-t-0 border-x-0 border-b-[1px] border-solid border-black bg-transparent placeholder:text-black focus:ring-0;
+  }
+}
